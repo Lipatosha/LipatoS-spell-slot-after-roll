@@ -1,0 +1,28 @@
+{
+  "id": "lipatos-spell-slot-after-roll",
+  "title": "LipatoS - Расход ячеек после броска",
+  "description": "Для обычных игроков скрывает раздел «Расход» в окне сотворения заклинания и списывает ячейку заклинания только после фактического броска кубика. Если окно броска закрыто и бросок не выполнен, ячейка не расходуется. ГМ не ограничен.",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "LipatoS" }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.3"
+        }
+      }
+    ]
+  },
+  "esmodules": ["scripts/main.js"],
+  "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-spell-slot-after-roll/main/module.json",
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-spell-slot-after-roll/main/lipatos-spell-slot-after-roll-v1.0.0.zip"
+}
